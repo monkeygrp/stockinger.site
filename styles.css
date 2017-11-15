@@ -1,0 +1,30 @@
+html, body, h1, p, nav, a { font-family: 'Raleway', sans-serif; }
+      
+@media screen and (min-width: 1001px) {
+  div.w3-display-container {
+    height: 732px;
+  }
+
+  #bgimg { 
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translate(-50%,0%);
+    -ms-transform:translate(-50%,0%);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #bgimg { 
+    width: auto;
+    height: 750px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #bgimg {
+    position: relative;
+    left: -200px;
+  }
+}
